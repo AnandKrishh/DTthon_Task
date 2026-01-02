@@ -1,0 +1,612 @@
+body{
+    margin: 0;
+    font-family: Poppins;
+    padding-bottom: 150px;
+}
+
+.navbarClass{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 8%;
+    box-shadow: 2px 0px 8px rgb(73, 73, 73);
+}
+
+.threedotsClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.rightNavContentClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18%;
+}
+
+.rightNavIcons{
+    width: 20%;
+}
+
+/* body section */
+
+.bodySectionClass{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.journeyBoardClass{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.journeyBoardContainerClass{
+    background-color: white;
+    /* width: 20%; */
+    width: 8%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgb(160, 159, 159); 
+}
+
+.journeyBoardTopClass{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: end;
+    align-items: center;
+    border-top-right-radius: 15px;
+    padding: 6px 6px;
+    /* width: 96%;  */
+    width: 90%; 
+    height: 40px;
+}
+
+.journeyBoardTitleClass{
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    /* display: none; */
+}
+
+
+.journeyBoardBodyClass{
+    background-color: white;
+    /* display: none; */
+}
+
+.journeyBoardLITitleClass{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.journeyBoardLIClass{
+    font-size: 13px;
+}
+
+
+.noticeBoardClass{
+    position: absolute;
+    display: flex;
+    width: 90px;
+    height: 260px;
+    right: 0px;
+    top: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 3px 15px rgb(160, 159, 159); 
+}
+
+.noticeBoardLeftClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 5px;
+}
+
+.crossIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.noticeBoardTextClass{
+    margin-top: 15px;
+    margin-bottom: 2px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+
+.headerSectionClass{
+    width: 80%;
+}
+
+.titleSectionClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleClass{
+    color: #0029FF; 
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+}
+
+.submitButtonClass{
+    background-color: #0029FF;
+    color: #FFFFFF;
+    width: 12%;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+}
+
+.descriptionContainerClass{
+    background-color: #E9ECEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.descriptionClass{
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.descriptionTitleClass{
+    font-size: 19px;
+}
+
+.descriptionParaClass{
+    font-size: 13px;
+}
+
+
+.inputSectionContainerClass{
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    width: 78%;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.inputContainerClass{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 650px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 6px rgb(160, 159, 159); 
+}
+
+.inputContainerTop{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50px;
+}
+
+.inputContainerTitle{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 85%;
+    text-align: center;
+}
+
+.inputContainerTopIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.inputContainerDescriptionBoxClass{
+    background-color: white;   
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 2px rgb(210, 209, 209); 
+}
+
+.inputContainerDescriptionParaClass{
+    padding-left: 8px;
+    margin-right: 55px;
+    font-size: 13px;
+    letter-spacing: 2%;
+}
+
+span{
+    font-weight: 600;
+}
+
+.inputContainerBodyClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Thread Build Box */
+
+
+.TBTitleBoxClass{
+    background-color: #FEFFC033;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    width: 100%;
+    height: 40px;
+}
+
+.TBTitleUpArrowClass{
+    padding-left: 12px
+}
+
+.TBTitleClass{
+    font-size: 20px;
+}
+
+.TBInputContainerClass{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    justify-items: center;
+    gap: 5px;
+    margin-top: 25px;
+    width: 90%;
+}
+
+.TBInputBoxClass{
+    background-color: #0000000D;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 110px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209); 
+}
+
+.TBInputBoxTitleClass{
+    /* background-color: thistle; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+}
+
+.TBInputBoxTitleClass h4{
+    width: 52;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.TBInputBoxTextClass{
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209); 
+}
+
+.TBInputTextClass{
+    width: 90%;
+    padding-right: 7%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 26%;
+    height: 20%;
+    border: none;
+    border-radius: 10px;
+}
+
+.TBMenuContainerClass{
+    /* background-color: tomato; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    height: 50px;
+}
+
+.TBIconClass{
+    width: 20px;
+}
+
+.TBMenuButtonsBoxClass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.TBMenuButtonClass{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgb(210, 209, 209); 
+    font-weight: 600;
+}
+
+.TBNewThreadButtonClass{
+    width: 85%;
+    margin-top: 20px;
+}
+
+.TBNewThreadButtonClass button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 13px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #0029FF;
+    border-radius: 10px;
+    border: none;
+}
+
+.TBNewThreadButtonClass button span{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.TBSummaryContainerClass{
+    /* background-color: tomato; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 150px;
+}
+
+
+.TBSummaryBoxClass{
+    background-color: #0000000D;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209);
+}
+
+.TBSummaryBoxTitleClass{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+}
+
+.TBSummaryBoxTitleClass h4{
+    width: 52%;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.TBSummaryBoxTextClass{
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209); 
+}
+
+.TBSummaryTextClass{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 93px;
+    width: 98%;
+    border: none;
+    border-radius: 10px;
+    color: #999999;
+}
+
+
+/* Structure your Pointers Box */
+
+.SYPContainerClass{
+    /* background-color: #0029FF; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    
+}
+
+.SYPTitleBoxClass{
+    display: flex;
+    flex-direction: column;
+}
+
+.SYPTitleClass h2{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.SYPTitleInputClass{
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209); 
+}
+
+.SYPTitleInputClass input{
+    padding-top: 5px;
+    padding-bottom: 27px;
+    width: 99%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209); 
+}
+
+.SYPContentContainerClass{
+    display: flex;
+    flex-direction: column;
+    height: 170%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(210, 209, 209); 
+}
+
+.SYPContentTopBoxClass{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgb(210, 209, 209); 
+    overflow: hidden;
+}
+
+.SYPContentTopBoxToolsClass{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+    height: 45%;
+    gap: 18px;
+}
+
+.SYPContentTopBoxToolsParaClass p{
+    background-color: #EBEBEB;
+    padding-right: 50px;
+}
+
+
+/* 4SA Method Section */
+
+.SAMContainerClass{
+    width: 90%;
+}
+
+.SAMBoxClass{
+    /* background-color: cadetblue; */
+}
+
+.SAMIntroBoxClass{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+}
+
+.SAMIntroBoxClass img{
+    padding-left: 15px;
+}
+
+.SAMIntroBoxClass h3{
+    font-weight: 500;
+}
+
+.SAMParaBoxClass{
+    padding-left: 15px;
+}
+
+.SAMBoxSeeMoreClass{
+    display: flex;
+    justify-content: end;
+}
+
+.SAMBoxSeeMoreClass p{
+    font-size: 14px;
+    color: #606161;
+}
+
+.SAMTitleBoxClass{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D9D7D7;
+    height: 50px;
+}
+
+.SAMTitleBoxClass img{
+    padding-left: 15px;
+}
+
+.SAMTitleBoxClass h3{
+    font-weight: 500;
+}
+
+.SAMExampleBoxClass{
+    /* background-color: cadetblue; */
+    margin-left: 55px;
+}
+
+.SAMExampleTitleBoxClass{
+     display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D9D7D7;
+    height: 50px;
+}
+
+.SAMExampleTitleBoxClass h3{
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+
+/* Technical Project Management Section*/
+
+.TPMVideoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200%;
+}
+
+.TPMVideoContainer iframe{
+    width: 100%;
+    height: 100%;
+}
